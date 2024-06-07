@@ -57,6 +57,17 @@ h3{
 .header__logo {
     margin: 3rem 0;
 }
+/*footer*/
+.footer{
+    background-color: var(--primarioOscuro);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.footer__texto{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
 /*navegacion*/
 .navegacion{
     background-color: var(--primarioOscuro);
@@ -68,5 +79,8 @@ h3{
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
-
+}
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: var(--secundario);
 }
