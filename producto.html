@@ -27,12 +27,15 @@
             <div class="camisa__contenido">
                 <p>Aenean tempus enim a purus mattis, vel hendrerit justo commodo.Aenean tempus enim a purus mattis, vel hendrerit justo commodo.Aenean tempus enim a purus mattis, vel hendrerit justo commodo.</p>
                 <form class="formulario">
-                    <select>
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar--</option>
                         <option>Pequeña</option>
                         <option>Mediana</option>
                         <option>Grande</option>
                     </select>
-                    </form>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="agregar al carrito">
+                </form>
             </div>
         </div>
     </main>
